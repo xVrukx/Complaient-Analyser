@@ -38,7 +38,7 @@ const App = () => {
              * }
              */
 
-            const res = await fetch("https://complaient-analyser-backend.onrender.com", {
+            const res = await fetch("https://complaient-analyser-backend.onrender.com/complaint", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
