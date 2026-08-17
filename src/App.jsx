@@ -244,13 +244,6 @@ const App = () => {
                         {renderFields(Data.AIAssessment)}
 
                     </section>
-                            <button
-                                onClick={getData}
-                                disabled={loading}
-                                className="bg-orange-600 hover:bg-orange-700 disabled:bg-orange-300 duration-300 text-white rounded-xl px-5 py-4 sm:px-6"
-                            >
-                                {loading ? "..." : "Final save"}
-                            </button>
                 </div>
 
 
